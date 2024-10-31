@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-
+import Head from "next/head";
 import Image from "next/image";
 import logo from '@/app/images/logo.jpg';
 import Link from "next/link";
@@ -46,7 +46,9 @@ export default function Page() {
     };
 
     return (
+        
         <div className=" w-full h-fit bg-[url('images/wallpaper.jpg')] ">
+    
             <div className="w-full bg-black bg-opacity-50 py-3">
                 <nav className="flex justify-between items-center text-white transition duration-300 hover:bg-opacity-80 hover:bg-black px-4 md:px-6">
 
