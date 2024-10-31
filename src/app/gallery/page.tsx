@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+
 import Image from "next/image";
 import logo from '@/app/images/logo.jpg';
 import Link from "next/link";
@@ -45,9 +46,7 @@ export default function Page() {
     };
 
     return (
-        
         <div className=" w-full h-fit bg-[url('images/wallpaper.jpg')] ">
-    
             <div className="w-full bg-black bg-opacity-50 py-3">
                 <nav className="flex justify-between items-center text-white transition duration-300 hover:bg-opacity-80 hover:bg-black px-4 md:px-6">
 
@@ -94,7 +93,7 @@ export default function Page() {
                 selectedImage && (
                     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
                         <div className="relative">
-                            <button onClick={handleCloseClick} className="absolute top-0 right-0 p-2 text-white text-2xl opacity-80">x</button>
+                            <button onClick={handleCloseClick} className="absolute top-0 right-0 p-2 text-white text-2xl"> &times; </button>
                             <img src={selectedImage} alt="wall art" className="max-h-full max-w-full" />
                         </div>
 

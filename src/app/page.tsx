@@ -30,7 +30,7 @@ export default function Page() {
           <section className="flex w-full md:w-1/2 mb-6">
             <div className=" text-white font-serif px-4 py-6 md:text-justify text-justify">
               <h1 className="font-bold text-2xl md:text-3xl text-center">The Wall Art: Inspiring Spaces</h1>
-              <p className="text-xl py-10 md:text-2xl">Welcome to our esteemed collection of wall art ideas, where you all find the finest pieces of art from around the world. Our mission is to provide you with a diverse range of artistic and asthetic styles that can transform any space into a masterpiece.</p>
+              <p className="text-xl py-10 md:text-2xl">Welcome to our esteemed collection of wall art ideas where you all find the finest pieces of art from around the world. Our mission is to provide you with a diverse range of artistic and asthetic styles that can transform any space into a masterpiece.</p>
 
               <Link href="/about">
                 <button className=" py-2 bg-yellow-600 rounded-lg text-black font-bold hover:bg-yellow-500 shadow-lg ">Know More</button>
