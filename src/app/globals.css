@@ -15,6 +15,10 @@
 }
 
 body {
+  background-image: url('/images/wallpaper.jpg');
+  background-size: cover;
+  background:fixed;
+  background-position: center;
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
