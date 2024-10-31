@@ -1,6 +1,5 @@
 "use client";
 import { useState } from "react";
-import Head from "next/head";
 import Image from "next/image";
 import logo from '@/app/images/logo.jpg';
 import Link from "next/link";
@@ -95,7 +94,7 @@ export default function Page() {
                 selectedImage && (
                     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-75 z-50">
                         <div className="relative">
-                            <button onClick={handleCloseClick} className="absolute top-0 right-0 p-2 text-white text-2xl"> &times; </button>
+                            <button onClick={handleCloseClick} className="absolute top-0 right-0 p-2 text-white text-2xl opacity-80">x</button>
                             <img src={selectedImage} alt="wall art" className="max-h-full max-w-full" />
                         </div>
 

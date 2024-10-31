@@ -1,4 +1,3 @@
-import Head from "next/head";
 import Image from "next/image";
 import logo from '@/app/images/logo.jpg';
 import Link from "next/link";
@@ -6,13 +5,7 @@ import Link from "next/link";
 
 export default function Page() {
   return (
-    <>
-    <Head>
-      <title>The Wall Artist</title>
-      <link rel="icon" href="/favicon.ico" sizes="any" />
-    </Head>
-      
-
+ 
       <div className=" w-full min-h-screen bg-[url('images/wallpaper.jpg')] bg-contain ">
 
 
@@ -69,7 +62,6 @@ export default function Page() {
           </section>
         </main>
       </div>
-    </>
   );
 }
 
