@@ -52,7 +52,7 @@ export default function Page() {
 
                     <div className="flex items-center space-x-2">
                         <Link href="/">
-                        <Image src={logo} alt="logo" width={100} height={100} className="rounded-full" /> </Link>
+                            <Image src={logo} alt="logo" width={100} height={100} className="rounded-full" /> </Link>
                     </div>
 
                     <div className="hidden md:flex flex-grow px-2 py-2 justify-center">

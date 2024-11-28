@@ -17,11 +17,12 @@ export default function Page() {
                 <Image src={logo} alt="logo" width={100} height={100} className="rounded-full " /> </Link>
             </div>
             <div className="flex space-x-4 mt-2 md:mt-0">
+            <Link href="/gallery">
+                <button className="hover:text-yellow-600 cursor-pointer">Collection</button> </Link>
+            
               <Link href="/about">
                 <button className="hover:text-yellow-600 cursor-pointer">About Us</button>  </Link>
-              <Link href="/gallery">
-                <button className="hover:text-yellow-600 cursor-pointer">Collection</button> </Link>
-            </div>
+                </div>
           </nav>
         </div>
 
@@ -38,24 +39,24 @@ export default function Page() {
             </div>
           </section>
 
-          <section className="flex w-full md:w-1/2 px-4 md:space-x-2 flex-row md:flex-row ">
+          <section className="flex w-full md:w-1/2 px-2 justify-end md:space-x-2 flex-row ">
 
-            <div className="flex flex-col space-y-2 w-full md:w-1/2 ">
-              <div className="h-full md:h-full">
-                <img src="/images/4.jpg" alt="wall art" className="rounded-lg object-cover w-full h-full " />
+            <div className="flex flex-col space-y-2 md:gap-6 w-full h-full md:h-auto md:w-2/5 ">
+              <div className="h-full md:h-2/5">
+                <img src="/images/image4.jpg" alt="wall art" className=" gap-2 rounded-lg object-cover w-full" />
               </div>
-              <div className=" h-full md:h-full">
-                <img src="/images/image3.jpg" alt="wall art" className="rounded-lg object-cover w-full h-full " />
+              <div className=" h-full md:h-2/5">
+                <img src="/images/image3.jpg" alt="wall art" className="gap-2 rounded-lg object-cover w-full" />
               </div>
             </div>
 
-            <div className="flex flex-col px-1 space-y-2 w-full md:w-1/2 ">
-              <div className=" h-full md:h-full ">
+            <div className="flex flex-col px-1 space-y-2 w-full md:w-2/5 ">
+              <div className=" h-full md:h-3/4 ">
                 <img src="/images/image6.jpg" alt="wall art" className="rounded-lg object-cover w-full h-full " />
               </div>
-              <div className="px-1 h-auto md:h-full">
+              <div className="px-1 h-auto ">
                 <Link href="/gallery">
-                  <button className="px-5 md:py-6 md:px-14 sm:px-6 sm:py-3  bg-yellow-600 rounded-lg text-black font-bold hover:bg-yellow-500 shadow-lg sm:text-base"> More Collection </button>
+                  <button className="px-3 md:py-4 md:px-9 py-3 my-0.5  bg-yellow-600 rounded-lg text-black font-bold hover:bg-yellow-500 shadow-lg sm:text-base"> More Collection </button>
                 </Link> </div>
 
             </div>
